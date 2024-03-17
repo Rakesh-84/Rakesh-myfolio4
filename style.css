@@ -1,0 +1,120 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;}
+/* Flex Content */
+.Banner{ background-color: #02918c;
+}
+.menu li:hover{background-color: #cfc91d;}
+.Container{display: flex;
+    justify-content: space-between;
+     list-style: none;
+    height: 60px;
+   margin-left: 44px;
+   margin-right: 44px;
+   align-items: center;
+}
+
+/* header portion */
+Nav ul li{list-style: none;
+color: #ffffff;
+padding: 20px;
+font-weight: 800;
+font-size: 12pt;
+}    
+
+section{background-image:url(./MYFOLIO.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 867px;
+color: #ffffff;}
+/* Banner portion css  */
+.star{display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 890px;}
+h3{font-size: 20pt;}
+h1{font-size: 56pt;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 25px;
+word-spacing: 30px;
+le}
+p{font-size: 14pt;}
+.star div img{height: 32x;
+padding: 50px;}
+.last{line-height: 35px;
+padding:5px 40px;
+background-color: #cfc91d;
+color: black;
+font-size: 14pt;
+font-weight: 800;}
+.last:hover{
+background-color:rgba(0, 255, 119, 0.878);}
+/* Banner portion CSS end */
+/* aboutt section */
+.flexabt{display: flex;
+text-align: center;
+line-height: 50px;
+padding-top: 98px;
+}
+.flexabt h3{color: #02918c;
+    font-size: 46pt;}
+.fourpart{display: flex
+}
+.fourpart{height: 400px;
+
+text-align: center;
+margin-top: 70px;}
+.fourpart :nth-child(1){width: 25%;
+;
+border-right:  #d9dbdb solid 1px ;
+}
+.fourpart :nth-child(2){width: 25%;
+    border-right:  #d9dbdb solid 1px ;
+}
+.fourpart :nth-child(3){width: 25%;
+    border-right:  #d9dbdb solid 1px ;
+    }
+.fourpart :nth-child(4){width: 25%;
+    border-right:  #d9dbdb solid 1px ;}
+    /* about section end */
+    /* service section */
+    .service{background-image: url(./service.png);
+    height: 722px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;}
+.serviceone{width: 50%;}
+.servicetwo{width: 50%;
+display: flex;
+}
+.servicetwo:nth-child(1){width: %;}
+.servicetwo:nth-child(2){width: %;}
+.servicetwo:nth-child(3){width: %;}
+.servicetwo:nth-child(4){width: %;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
